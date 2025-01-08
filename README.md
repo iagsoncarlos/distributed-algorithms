@@ -111,27 +111,27 @@ To run a specific distributed algorithm, execute the following command:
 
 1. **Run Chandy-Lamport Algorithm:**
    ```bash
-   python main.py chandy_lamport --log info
+   python src/main.py chandy_lamport --log info
    ```
 
 2. **Run MVCC Algorithm:**
    ```bash
-   python main.py mvcc --log info
+   python src/main.py mvcc --log info
    ```
 
 3. **Run One-Phase Commit Algorithm:**
    ```bash
-   python main.py one_phase_commit --log info
+   python src/main.py one_phase_commit --log info
    ```
 
 4. **Run Two-Phase Commit Algorithm:**
    ```bash
-   python main.py two_phase_commit --log info
+   python src/main.py two_phase_commit --log info
    ```
 
 5. **Run Distributed Lock Simulation:**
    ```bash
-   python main.py distributed_lock --log info
+   python src/main.py distributed_lock --log info
    ```
 
 In each of these cases, the `--log` option allows you to control the logging level, which can be one of the following: `debug`, `info`, `warning`, `error`, `critical`.
